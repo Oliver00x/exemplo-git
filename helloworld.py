@@ -1,4 +1,5 @@
 print("Olá Mundo")
-for x in range(1,10):
-    soma = x + 10
+soma = 0
+for x in range(1, 10):
+    soma += x
     print(f"O resultado é {soma}")
