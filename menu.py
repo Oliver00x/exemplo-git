@@ -27,6 +27,5 @@ Digite o número referente a opção desejada: """))
         }
         salvarcadastro(cadastro)
     
-    #if comando == 2: 
-       # resultado = vercadastros()
-       #EM PROGRESSO =)
+    if comando == 2: 
+        resultado = vercadastros()

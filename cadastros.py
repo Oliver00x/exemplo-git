@@ -11,4 +11,5 @@ def vercadastros():
     with open("cadastros.json", "r") as arquivos:
         resultado = json.load(arquivos)
     print(resultado["Nome"])
+#Em progresso
     
