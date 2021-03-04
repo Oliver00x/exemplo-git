@@ -7,12 +7,13 @@ def calcula_media(boletim):
         quantidadenotas = len(boletim)
         soma = sum(boletim)
         media = soma / quantidadenotas
-        print(f"Sua média final foi {media:.2f}")
+        mediafloat = float(media)
     else:
         quantidadenotas = len(boletim)
         soma = sum(boletim)
         media = soma / quantidadenotas
-        print(f"Sua média final foi {media:.2f}")
+        mediafloat = float(media)
+    return mediafloat
 
 
 def mensagem_saudacao(periodo):
@@ -24,7 +25,8 @@ def mensagem_saudacao(periodo):
         periodo = "Boa noite"
     else:
         periodo = "Olá"
-    return print(periodo)
+    resultado = periodo
+    return resultado
 
 
 def calcula_situacao(nota):
@@ -34,4 +36,5 @@ def calcula_situacao(nota):
         situacao = "Aprovado!"
     elif nota < 7:
         situacao = "Reprovado!"
-    return print(situacao)
+    resultado = situacao
+    return resultado
